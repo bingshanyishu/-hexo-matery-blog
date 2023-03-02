@@ -1,0 +1,99 @@
+<%- partial('_partial/bg-cover') %>
+
+<style>
+
+li {
+    list-style: none;
+}
+.about {
+    color: rgba(56, 51, 51, 0.6) !important;
+    font-size: 3vw;
+    text-align: center;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+    line-height: 3vw;
+
+}
+.ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    /* 对齐 */
+    margin: 0 auto !important;
+}
+
+.list {
+    position: relative;
+    margin-bottom: 10px;
+    color: rgba(0, 150, 250, 0.6) !important;
+    background-color: rgba(255, 255, 255,0.7);
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(255, 255, 255,0.7);
+} 
+
+.list:hover {
+    transform: scale(1.02,1.02);
+    transition: all 0.5s;
+}
+
+.list::before {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    content: '📖';
+    transform: scale(2);
+    
+}
+.list a .title {
+    margin: 0;
+    height: 4rem;
+    font-size: 3rem !important;
+    border-bottom: 2px solid #fff;
+    color: rgba(0, 150, 250, 0.6) !important;
+    line-height: 4rem;
+}
+
+.list a .explain {
+    margin: 0;
+    text-align: left;
+    white-space:normal;
+    line-height: 3vw;
+    color: rgba(0, 150, 250, 0.6) !important;
+    font-size: 1.8vw !important;
+}
+
+
+/* 手机端字体 */
+@media only screen and (max-width: 601px) {
+    .list a .title {
+        font-size: 2.2rem !important;
+    }
+    .list::before {
+        content: '📖';
+        transform: scale(1.5);  
+    }
+    .about {
+        font-size: 4vw;
+        line-height: 4.5vw;
+
+}
+}
+
+</style>
+
+<main class="centent">
+    <h2 class="about">这儿是一些基于pdfjs进行阅读的书籍或者笔记！<br><em>注意：阅读请关闭IDM</em></h2>
+    <ul class="ul">
+        <li class="list">
+            <a href="/pdfjs/web/viewer.html?file=../data/css揭秘.pdf" target="_Blank">
+                <h3 class="title">《css揭秘》</h3>
+                <p class="explain">这本书是为新一代 CSS 所写的新一代 CSS 图书。也许从前的 CSS 只会让你联想到浏览器里的各种
+                    小把戏，但如今 CSS 已经成为一门功能强大、具备完整生态、涉及 80 多项 W3C 规范的复杂语言。在我
+                    所知的技术专家中，没人比 Lea Verou 更能领会新一代 CSS 的精髓，没人能像她那样透彻地给出问题解决之道
+                </p>
+            </a>
+        </li>
+    </ul>
+
+</main>

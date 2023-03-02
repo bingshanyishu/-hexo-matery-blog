@@ -1,0 +1,133 @@
+/* Here is your custom css styles. */
+
+body {
+    font-family: 'Mulish', -apple-system, 'Noto Serif SC', 'PingFang SC',
+        'Microsoft Yahei UI', 'Microsoft Yahei', sans-serif;
+}
+
+/* 增加每日一言模块 */
+.poem-wrap {
+    position: relative;
+    width: 730px;
+    max-width: 80%;
+    border: 2px solid #797979;
+    border-top: 0;
+    text-align: center;
+    margin: 80px auto;
+}
+.poem-left {
+    left: 0;
+}
+.poem-border {
+    position: absolute;
+    height: 2px;
+    width: 27%;
+    background-color: #797979;
+}
+.poem-right {
+    right: 0;
+}
+.poem-wrap h1 {
+    position: relative;
+    margin-top: -20px;
+    display: inline-block;
+    letter-spacing: 4px;
+    color: #797979;
+}
+.poem-wrap p:nth-of-type(1) {
+    font-size: 25px;
+    text-align: center;
+    margin: 0 auto;
+}
+.poem-wrap p {
+    width: 70%;
+    margin: auto;
+    line-height: 30px;
+    color: #797979;
+    font-family: 'Linux Biolinum', 'Noto Serif SC', Helvetica, Arial, Menlo,
+        Monaco, monospace, sans-serif;
+}
+.poem-wrap p:nth-of-type(2) {
+    font-size: 18px;
+    margin: 15px auto;
+}
+.bozhushuo {
+    text-align: center;
+    font-size: 19px !important;
+    margin: 0 0 12px !important;
+    line-height: 1.9rem;
+    font-family: 'Linux Biolinum', 'Noto Serif SC', Helvetica, Arial, Menlo,
+        Monaco, monospace, sans-serif;
+}
+.notice {
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px dashed #e6e6e6;
+    color: #969696;
+    position: relative;
+    display: inline-block;
+    width: 95%;
+    background: #fbfbfb50;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.notice-content {
+    display: initial;
+    vertical-align: middle;
+}
+
+/* 修改首页轮播的subtitle标题大小 */
+@media only screen and (max-width: 601px) {
+    .bg-cover .title {
+        font-size: 3rem;
+    }
+}
+
+/* 修改博客标题的字体大小 */
+@media only screen and (max-width: 601px) {
+    header .brand-logo .logo-span {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 601px) {
+    header .brand-logo .logo-img {
+        display: none;
+    }
+}
+
+/* 小熊 */
+.bear {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    bottom: -262px;
+    background: url(https://bingshanyishu.github.io/medias/bear.png) no-repeat;
+    /* 元素可以添加多个动画， 用逗号分隔 */
+    animation: bear 0.4s steps(8) infinite, move 5s forwards;
+}
+
+@keyframes bear {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -1600px 0;
+    }
+}
+
+@keyframes move {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 50%;
+        /* margin-left: -100px; */
+        transform: translateX(-50%);
+    }
+}
+@media only screen and (max-width: 601px) {
+    .bear {
+        display: none;
+    }
+}

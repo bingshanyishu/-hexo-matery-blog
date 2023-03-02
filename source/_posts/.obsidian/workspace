@@ -1,0 +1,118 @@
+{
+  "main": {
+    "id": "3c88783b65ada462",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f7e94aa65073963",
+        "type": "leaf",
+        "dimension": 75.69721115537848,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Tableau怎么制作专业图表.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        },
+        "group": "b4e33ac43e5d504b"
+      },
+      {
+        "id": "1025c438c2b98d35",
+        "type": "leaf",
+        "dimension": 24.302788844621514,
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Tableau怎么制作专业图表.md"
+          }
+        },
+        "group": "b4e33ac43e5d504b"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "040cae45650bf599",
+    "type": "split",
+    "children": [
+      {
+        "id": "ebb476974bcbafed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "234e3986dd4dee48",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5ca78423501ae258",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 375
+  },
+  "right": {
+    "id": "836ebd5499334486",
+    "type": "split",
+    "children": [
+      {
+        "id": "1c7e790b07bbec62",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "81f5dbba7d3bf6fc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Tableau怎么制作专业图表.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 176,
+    "collapsed": true
+  },
+  "active": "0f7e94aa65073963",
+  "lastOpenFiles": [
+    "Tableau怎么制作专业图表.md",
+    "Tableau学习Step6一如何制作炫彩地图.md",
+    "博客搭建，修改基本信息，建立个人风格.md",
+    "个人知识树博客搭建一环境的安装与配置.md",
+    "网页的盒子模型是什么？怎么设置盒子样式.md",
+    "关于Web的一些知识，Web怎么构成？.md",
+    "Ajax概述，封装以及联合模板引擎进行数据交互.md",
+    "Tableau学习Step3一数据的连接与基本图形的制作.md",
+    "Tableau学习step1一Tableau概述.md",
+    "jQuery+CSS3 - 副本.md"
+  ]
+}
