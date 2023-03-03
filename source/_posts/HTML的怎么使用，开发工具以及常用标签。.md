@@ -1,6 +1,6 @@
 ---
 title: HTML的怎么使用，开发工具以及常用标签。
-author: Sankey
+author: Breezs
 coverImg: /medias/banner/1.jpg
 top: false
 cover: false

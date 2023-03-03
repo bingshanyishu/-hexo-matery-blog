@@ -1,6 +1,6 @@
 ---
 title: Tableau怎么制作专业图表图
-author: Sankey
+author: Breezs
 coverImg: /medias/banner/2.jpg
 top: false
 cover: false
@@ -26,23 +26,23 @@ password:
 
 **商业周刊的图表风格**
 
-![image-20220202222959727](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202222959727.png)
+![image-20220202222959727](https://img-blog.csdnimg.cn/img_convert/c5305b1117676cb41482c0318ab1b44f.png)
 
 **经济学人的图表风格**
 
-![image-20220202223020732](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202223020732.png)
+![image-20220202223020732](https://img-blog.csdnimg.cn/img_convert/03134059703e8d6283eb84b4941d7e48.png)
 
 **华尔街日报的图表风格**
 
-![image-20220202223045378](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202223045378.png)
+![image-20220202223045378](https://img-blog.csdnimg.cn/img_convert/78eea5c57a5a3cd406a5b90809b46d59.png)
 
 其他媒体的图表风格
 
-![image-20220202223104232](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202223104232.png)
+![image-20220202223104232](https://img-blog.csdnimg.cn/img_convert/e3ccdc20d8c3774ed275ba561593b626.png)
 
 ### 1.2 专业图表的特点
 
-![image-20220202223143645](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202223143645.png)
+![image-20220202223143645](https://img-blog.csdnimg.cn/img_convert/752a50d159a1249b502de8a056e8e8c5.png)
 
 ### 1.3 结论
 
@@ -50,7 +50,7 @@ password:
 
 ### 1.4 统计表的基本架构
 
-![image-20220202223227663](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202223227663.png)
+![image-20220202223227663](https://img-blog.csdnimg.cn/img_convert/6e8c77f95d774adb0ce762f6764b2780.png)
 
 ### 1.5 图表中的文字设定
 
@@ -102,47 +102,49 @@ password:
 
 **文字设定**
 
-![image-20220202230356390](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202230356390.png)
+![image-20220202230356390](https://img-blog.csdnimg.cn/img_convert/5e438caafde1ace218fac0b0bb0f1fc9.png)
 
 **边框设定**
 
-![image-20220202230413120](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202230413120.png)
+![image-20220202230413120](https://img-blog.csdnimg.cn/img_convert/d5e2618946e2c4a083de821fb84c46b8.png)
 
 ## 二. 统计图
 
 ### 2.1 统计图的信息维度
 
-![image-20220202224034978](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202224034978.png)
+![image-20220202224034978](https://img-blog.csdnimg.cn/img_convert/d4a38c3971e2264b7a8464b43501de28.png)
 
-![image-20220202224101825](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202224101825.png)
+![image-20220202224101825](https://img-blog.csdnimg.cn/img_convert/366bd5ec453af5738066de4bf75275ac.png)
 
 ### 2.2 配色方案
 
 #### 2.2.1 从调色板开始
 
-![image-20220202224147021](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202224147021.png)
+![image-20220202224147021](https://img-blog.csdnimg.cn/img_convert/c63b519606ac4e0e673db656604f344d.png)
 
 #### 2.2.2 颜色对比
 
-![image-20220202224221257](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202224221257.png)
+![image-20220202224221257](https://img-blog.csdnimg.cn/img_convert/1a5a917c2ba79fbbdad9591a275e0198.png)
+
+[外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传(img-aF8ZCH1n-1644060046507)(怎么制作专业图表.assets/image-20211006102232107.png)]
 
 #### 2.2.3 取色法
 
 **三色组取色**
 
-![image-20220202224314432](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202224314432.png)
+![image-20220202224314432](https://img-blog.csdnimg.cn/img_convert/a5586fe22fb3e7f98e94594e070ac421.png)
 
 **分裂互补三色组**
 
-![image-20220202224336992](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202224336992.png)
+![image-20220202224336992](https://img-blog.csdnimg.cn/img_convert/1371c09330b1b99c962dd6d47e7b6540.png)
 
 类似取色
 
-![image-20220202224400000](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202224400000.png)
+![image-20220202224400000](https://img-blog.csdnimg.cn/img_convert/e76d244ce6bd553808bb63b651ab6c8f.png)
 
 **调整亮度取色**
 
-![image-20220202224444411](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202224444411.png)
+![image-20220202224444411](https://img-blog.csdnimg.cn/img_convert/0682d7e317815879d3eb7dd467048b8a.png)
 
 #### 2.2.3 常见配色方案
 
@@ -161,84 +163,82 @@ password:
 
 ### 2.3 如何定义颜色系
 
-![image-20220202224622879](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202224622879.png)
+![image-20220202224622879](https://img-blog.csdnimg.cn/img_convert/3511586f7ea8617a97187e8f0d8bde09.png)
 
 ### 2.3 案例
 
-![image-20220202224647354](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202224647354.png)
+![image-20220202224647354](https://img-blog.csdnimg.cn/img_convert/93cec4ab4903c613f147686c85f1929a.png)
 
-![image-20220202224702639](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202224702639.png)
+![image-20220202224702639](https://img-blog.csdnimg.cn/img_convert/ff5abb9bb3b9cda233c197be59279b57.png)
 
-![image-20220202224717551](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202224717551.png)
+![image-20220202224717551](https://img-blog.csdnimg.cn/img_convert/6349eeeec3cb5dba320c84c9bb53e71c.png)
 
-![image-20220202224730336](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202224730336.png)
+![image-20220202224730336](https://img-blog.csdnimg.cn/img_convert/b6a79ce54402b2b1dc74e48adf23d689.png)
 
 ### 2.4 自定义颜色
 
-![image-20220202224812156](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202224812156.png)
+![image-20220202224812156](https://img-blog.csdnimg.cn/img_convert/1a49d48ad211357b9138eeacdc73c255.png)
 
 ### 2.5 自定义边界
 
-![image-20220202224924133](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202224924133.png)
+![image-20220202224924133](https://img-blog.csdnimg.cn/img_convert/a55003b449d22bf394afa153b3cceaf5.png)
 
 ### 2.6 自定义形状
 
-![image-20220202224953082](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202224953082.png)
+![image-20220202224953082](https://img-blog.csdnimg.cn/img_convert/4422ca91612df5b416ea4a220dff76c2.png)
 
 ### 2.7 自定义图形框架
 
-![image-20220202225007874](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202225007874.png)
+![image-20220202225007874](https://img-blog.csdnimg.cn/img_convert/79555b2d4271512216e4f94b299eb317.png)
 
 ## 三. 仪表板
 
 ### 3.1 版面设计四大原则
 
-![image-20220202225037658](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202225037658.png)
+![image-20220202225037658](https://img-blog.csdnimg.cn/img_convert/e5f757b60f63ab6af37e524e43392699.png)
 
 #### 3.1.1 接近
 
-![image-20220202225334896](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202225334896.png)
+![image-20220202225334896](https://img-blog.csdnimg.cn/img_convert/912865c3884b162422227a0f8bd2f9b1.png)
 
 #### 3.1.2 对齐
 
-![image-20220202225102330](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202225102330.png)
+![image-20220202225102330](https://img-blog.csdnimg.cn/img_convert/b5e41ede8fb63476277718493ff2e400.png)
 
-#### 3.1.3 重复
-
-![image-20220202225131095](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202225131095.png)
+#### 3.1.3 重复![image-20220202225131095](https://img-blog.csdnimg.cn/img_convert/1a8284d423fa741a8fd9424759573102.png)
 
 #### 3.1.4 对比
 
-![image-20220202225154538](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202225154538.png)
+![image-20220202225154538](https://img-blog.csdnimg.cn/img_convert/9c399fa400de464249ab8661e19b13b9.png)
 
 ### 3.2 仪表板的设计
 
 #### 3.2.1 仪表板的作用
 
-![image-20220202225542495](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202225542495.png)
+![image-20220202225542495](https://img-blog.csdnimg.cn/img_convert/84a9ee1586df1e738f88ba570933893d.png)
 
 #### 3.2.2 设计的要点
 
-![image-20220202225658891](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202225658891.png)
+![image-20220202225658891](https://img-blog.csdnimg.cn/img_convert/a2e173e715621aa62df07d9efa4a48c0.png)
 
 #### 3.2.3 注意点
 
-![image-20220202225751072](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202225751072.png)
+![image-20220202225751072](https://img-blog.csdnimg.cn/img_convert/e7a080d9091eaabcbc6a350a46d8790c.png)
 
 ### 3.3 实践：冬小麦状况监测
 
 #### 3.3.1 需求分析
 
-![image-20220202230049387](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202230049387.png)
+![image-20220202230049387](https://img-blog.csdnimg.cn/img_convert/285832b91a6e42d6c6e09cd69dba221d.png)
 
 #### 3.3.2 数据展示工具分析
 
-![image-20220202230321564](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202230321564.png)
+![image-20220202230321564](https://img-blog.csdnimg.cn/img_convert/067295cf5c3c992325fd8cfb33fc3500.png)
 
 #### 3.3.3 版面设计需求分析
 
-![image-20220202230226550](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202230226550.png)
+![image-20220202230226550](https://img-blog.csdnimg.cn/img_convert/f2b868c84a79841678262344ef7d7385.png)
 
 #### 3.3.4 仪表板需求细化
 
-![image-20220202230252979](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/Tableau/draw/image-20220202230252979.png)
+![image-20220202230252979](https://img-blog.csdnimg.cn/img_convert/cfd4232b39b9d8011c383a4b41e23479.png)

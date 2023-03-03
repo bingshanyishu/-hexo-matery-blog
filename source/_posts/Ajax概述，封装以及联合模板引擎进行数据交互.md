@@ -1,6 +1,6 @@
 ---
 title: Ajax概述，封装以及联合模板引擎进行数据交互
-author: Sankey
+author: Breezs
 coverImg: /medias/banner/1.jpg
 top: false
 cover: false
@@ -21,7 +21,7 @@ password:
 
 # Ajax 概述，封装以及联合模板引擎进行数据交互
 
-博客园主页：[博客园主页-冰山一树 Sankey](https://www.cnblogs.com/bingshanyishu)
+博客园主页：[博客园主页-冰山一树 Sankey](https://www.cnblogs.com/breezs)
 CSDN 主页：[CSDN 主页-冰山一树 Sankey](https://blog.csdn.net/m0_59464010)
 
 更多资料可参考[Ajax 介绍篇丨慕课网教程 (imooc.com)](https://www.imooc.com/wiki/ajaxlesson/ajaxintro.html)
@@ -38,7 +38,7 @@ CSDN 主页：[CSDN 主页-冰山一树 Sankey](https://blog.csdn.net/m0_5946401
 
 它是浏览器提供的一套方法，可以实现页面无刷新更新数据，提高用户浏览网站应用的体验。
 
-![录制_2022_03_17_21_37_32_165](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/ajax/%E5%BD%95%E5%88%B6_2022_03_17_21_37_32_165.gif)
+![录制_2022_03_17_21_37_32_165](https://img-blog.csdnimg.cn/img_convert/80675063efb818dbb868bdca7970be34.gif)
 
 ## 二. Ajax 运行环境及实现
 
@@ -46,7 +46,7 @@ CSDN 主页：[CSDN 主页-冰山一树 Sankey](https://blog.csdn.net/m0_5946401
 
 Ajax 相当于浏览器发送请求与接收响应的代理人，以实现在不影响用户浏览页面的情况下，局部更新页面数据，从而提高用户体验。在浏览器端与服务器端进行请求响应是不可以控制的，但使用 Ajax 后，开发人员人员可控制其过程。
 
-![image-20220317223015626](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/ajax/image-20220317223015626.png)
+![image-20220317223015626](https://img-blog.csdnimg.cn/img_convert/fc8205566ed1f3dc90955086e710ea0e.png)
 
 那如何实现 Ajax 呢？
 
@@ -191,11 +191,11 @@ nodemon app.js
 
 **解释下这里的过程**： 用 get 的请求方法把输入的数据从浏览器端**发送**到服务端，服务端再把得到的数据再**返回**到浏览器端进行输出，当然这里为了测试，从服务端发送到浏览器端的数据也可以是**其他内容**
 
-![image-20220317231137737](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/ajax/image-20220317231137737.png)
+![image-20220317231137737](https://img-blog.csdnimg.cn/img_convert/c88ff9df3cc6b2a43547995815d441b0.png)
 
 可以看到这里的请求的 url 是域名+`?key=value&key=value`的形式以及请求方法为`get`
 
-![image-20220317231737308](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/ajax/image-20220317231737308.png)
+![image-20220317231737308](https://img-blog.csdnimg.cn/img_convert/cf4aeb03cc97c0bc755f9467a3aa0c64.png)
 
 ### 2.3 传递 post 请求参数
 
@@ -269,11 +269,11 @@ app.post('/post', (req, res) => {
 
 打开浏览器中输入`http://localhost:3000/post请求参数.html`, 打开浏览器调试，点击网络，输入数据后，可以得到 post，请求 url 以及请求方法
 
-![image-20220318153531163](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/ajax/image-20220318153531163.png)
+![image-20220318153531163](https://img-blog.csdnimg.cn/img_convert/2ccfae16a35c92a21c303b16ca7075bd.png)
 
 这里的表单数据为输入的值，说明数据传递成功。
 
-![image-20220318153805465](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/ajax/image-20220318153805465.png)
+![image-20220318153805465](https://img-blog.csdnimg.cn/img_convert/5e861476b16d5634f219ae7e393e638f.png)
 
 第二种传递的格式为 json 数据，主要区别在于`xhr.setRequestHeader('Content-Type', 'application/json');`，以及服务端的 app.use(bodyParser.json());具体看下面的代码
 
@@ -328,7 +328,7 @@ app.post('/json', (req, res) => {
 
 在 HTTP 请求和响应的过程中传递的数据块就叫报文，包括要传送的数据和一些附加信息，这些数据和信息要遵守规定好的格式。
 
-![image-20220318154706440](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/ajax/image-20220318154706440.png)
+![image-20220318154706440](https://img-blog.csdnimg.cn/img_convert/6fb3335feed4271849bc3b4dc674b274.png)
 
 上面的 get 与 post 请求，我们均是使用 onload 来获取服务端的报文，但也可以通过另外的方法来获取：
 
@@ -519,11 +519,11 @@ function ajax(options) {
 
 进入官网，点击 Docs
 
-![image-20220318160106408](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/ajax/image-20220318160106408.png)
+![image-20220318160106408](https://img-blog.csdnimg.cn/img_convert/fb6638afeda9748d9c592452e69aacdd.png)
 
 然后点击**安装**，将 temlate-web.js 另存到本地就下载好了
 
-![image-20220318160147295](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/ajax/image-20220318160147295.png)
+![image-20220318160147295](https://img-blog.csdnimg.cn/img_convert/2e7b9d0a0376ea6f1f06890af432f812.png)
 
 ### 4.2 使用步骤
 
@@ -776,7 +776,7 @@ console.log('服务器启动成功');
 
 #### 4.3.1 验证邮箱地址唯一性
 
-![验证邮箱唯一性](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/ajax/%E9%AA%8C%E8%AF%81%E9%82%AE%E7%AE%B1%E5%94%AF%E4%B8%80%E6%80%A7.gif)
+![验证邮箱唯一性](https://img-blog.csdnimg.cn/img_convert/aae4f2febd5a61fff47ba6b600ab9c3e.gif)
 
 在 public 文件夹下面新建`验证邮箱地址唯一性.html`
 
@@ -864,7 +864,7 @@ console.log('服务器启动成功');
 
 #### 4.3.2 搜索框内容自动提示
 
-![搜索框内容自动提示](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/ajax/%E6%90%9C%E7%B4%A2%E6%A1%86%E5%86%85%E5%AE%B9%E8%87%AA%E5%8A%A8%E6%8F%90%E7%A4%BA.gif)
+![搜索框内容自动提示](https://img-blog.csdnimg.cn/img_convert/0375d23f660d79fc5f4a3d42c20908b9.gif)
 
 在 public 文件夹下面新建`搜索框内容自动提示.html`
 
@@ -957,7 +957,7 @@ console.log('服务器启动成功');
 
 #### 4.3.3 省市区联动
 
-![省市区三级联动](C:/Users/27532/Desktop/省市区三级联动.gif)
+[外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传(img-kLWXExa1-1647700819349)(C:/Users/27532/Desktop/省市区三级联动.gif)]
 
 在 public 文件夹下面新建`省市区联动.html`
 

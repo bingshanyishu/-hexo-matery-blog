@@ -1,7 +1,7 @@
 ---
 title: { { title } }
 date: { { date } }
-author: Sankey
+author: Breezs
 coverImg: /medias/banner/1.jpg
 top: false
 cover: false

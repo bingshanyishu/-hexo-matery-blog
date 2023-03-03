@@ -1,6 +1,6 @@
 ---
 title: 如何在Ajax中使用FormData对象传递数据，$.ajax方法怎么使用
-author: Sankey
+author: Breezs
 coverImg: /medias/banner/1.jpg
 top: false
 cover: false
@@ -20,7 +20,7 @@ password:
 
 # 如何在 Ajax 中使用 FormData 对象传递数据，$.ajax 方法怎么使用
 
-博客园主页：[博客园主页-冰山一树 Sankey](https://www.cnblogs.com/bingshanyishu)
+博客园主页：[博客园主页-冰山一树 Sankey](https://www.cnblogs.com/breezs)
 CSDN 主页：[CSDN 主页-冰山一树 Sankey](https://blog.csdn.net/m0_59464010)
 
 Ajax 基础概述以及封装请查看[ Ajax 概述，封装以及联合模板引擎进行数据交互\_冰山一树 Sankey 的博客-CSDN 博客](https://blog.csdn.net/m0_59464010/article/details/123604761)
@@ -296,13 +296,13 @@ app.listen(3000);
 console.log('服务器启动成功');
 ```
 
-![image-20220318164659326](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/ajax/image-20220318164659326.png)
+![image-20220318164659326](https://img-blog.csdnimg.cn/img_convert/a36f6bfd66c5958278c9993ad9958cef.png)
 
 ## 二. Ajax 请求限制
 
 注意：以下代码均在下面 s1 与 s2 文件结构中，public 下的文件为 html 页面，app.js 为服务器端代码
 
-![image-20220318192952008](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/ajax/image-20220318192952008.png)
+![image-20220318192952008](https://img-blog.csdnimg.cn/img_convert/736f28ca4d5ee67ee66202e510f26b9f.png)
 
 ### 2.1 同源政策
 
@@ -492,7 +492,7 @@ function jsonp(options) {
 
 CORS：**全称为 Cross-origin resource sharing**，即跨域资源共享，它允许浏览器向跨域服务器发送 Ajax 请求，克服了 Ajax 只能同源使用的限制。
 
-![image-20220318190245142](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/ajax/image-20220318190245142.png)
+![image-20220318190245142](https://img-blog.csdnimg.cn/img_convert/7f5c76ef91c701b169e4812049147d11.png)
 
 只需要在 s2 的 app.js 中设置 CORS 即可实现 s1 的服务器能发起请求，并得到响应
 
@@ -515,7 +515,7 @@ app.use((req, res, next) => {
 
 同源政策是浏览器给予 Ajax 技术的限制，服务器端是不存在同源政策限制。服务端可通过`request模块`访问其他服务端
 
-![image-20220318190710526](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/ajax/image-20220318190710526.png)
+![image-20220318190710526](https://img-blog.csdnimg.cn/img_convert/f907bbb77802591a93adde8eb12fbb73.png)
 
 ```html
 <!DOCTYPE html>

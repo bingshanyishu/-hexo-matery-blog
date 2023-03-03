@@ -1,6 +1,6 @@
 ---
 title: 关于Web的一些知识，Web怎么构成？
-author: Sankey
+author: Breezs
 coverImg: /medias/banner/1.jpg
 top: false
 cover: false
@@ -105,6 +105,3 @@ Web 标准提出的最佳体验方案：**结构、样式、行为相分离**。
 -   百度：http://www.baidu.com
 -   W3C：http://www.w3school.com.cn/
 -   MDN：https://developer.mozilla.org/zh-CN/
-
-**关于 HTML 的知识请查看**
-[[HTML的怎么使用，开发工具以及常用标签。]]，直接复制右上角搜索即可

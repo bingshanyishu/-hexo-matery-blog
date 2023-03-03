@@ -1,6 +1,6 @@
 ---
 title: CSS高级技巧——精灵图，字体图标，三角形等
-author: Sankey
+author: Breezs
 coverImg: /medias/banner/1.jpg
 top: false
 cover: false
@@ -21,7 +21,7 @@ password:
 
 # CSS 高级技巧——精灵图，字体图标，三角形等
 
-博客园主页：[博客园主页-冰山一树 Sankey](https://www.cnblogs.com/bingshanyishu)
+博客园主页：[博客园主页-冰山一树 Sankey](https://www.cnblogs.com/breezs)
 CSDN 主页：[CSDN 主页-冰山一树 Sankey](https://blog.csdn.net/m0_59464010)
 
 > 前端学习：学习地址：[黑马程序员 pink 老师前端入门教程，零基础必看的 h5(html5)+css3+移动](https://www.bilibili.com/video/BV14J4114768?from=search&seid=8917517766284511711)，下面这些都是一些学习笔记。临渊羡鱼，不如退而结网！！愿我自己学有所成，也愿每个前端爱好者学有所成
@@ -30,9 +30,9 @@ CSDN 主页：[CSDN 主页-冰山一树 Sankey](https://blog.csdn.net/m0_5946401
 
 ### 1.1 为什么需要精灵图
 
-![image-20220309191941187](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20220309191941187.png)
+![image-20220309191941187](https://img-blog.csdnimg.cn/img_convert/5545164d9f6d2d5f11b1d1738ac12f48.png)
 
-![image-20211119214638056](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20211119214638056.png)
+![image-20211119214638056](https://img-blog.csdnimg.cn/img_convert/3af739da81c0d46470513017720ba057.png)
 
 一个网页中往往会应用很多小的背景图像作为修饰，当网页中的图像过多时，服务器就会频繁地接收和发送请求图片，造成服务器请求压力过大，这将大大降低页面的加载速度。
 因此，为了有效地减少服务器接收和发送请求的次数，提高页面的加载速度，出现了 **CSS 精灵技术**（也称**CSS Sprites、CSS 雪碧**）。
@@ -53,7 +53,7 @@ CSDN 主页：[CSDN 主页-冰山一树 Sankey](https://blog.csdn.net/m0_5946401
 
 这是一张精灵图图片，拼出单词`pink`
 
-![abcd](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/abcd.jpg)
+![abcd](https://img-blog.csdnimg.cn/img_convert/ab71c58af9d957e6d989ad330d14ecbf.png)
 
 ```html
 <!DOCTYPE html>
@@ -126,7 +126,7 @@ CSDN 主页：[CSDN 主页-冰山一树 Sankey](https://blog.csdn.net/m0_5946401
 
 注意： 字体图标不能替代精灵技术，只是对工作中图标部分技术的提升和优化。
 
-![image-20220309192701961](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20220309192701961.png)
+![image-20220309192701961](https://img-blog.csdnimg.cn/img_convert/8ed838f4ea337cc8453a3eb9ffc31a5e.png)
 
 ### 2.3 字体图标的下载
 
@@ -160,7 +160,7 @@ Font Awesome 已经发展到拥有 5000 多个图标，并持续添加最受欢�
 
 1. 把下载包里面的 fonts 文件夹放入页面根目录下
 
-![image-20220309211333912](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20220309211333912.png)
+![image-20220309211333912](https://img-blog.csdnimg.cn/img_convert/b0cec1396d2c87112e17afb31bdb42b1.png)
 
 2. 在 CSS 样式中全局声明字体： 简单理解把这些字体文件通过 css 引入到我们页面中。
    一定注意字体文件路径的问题。
@@ -180,7 +180,7 @@ font-style: normal; }
 
 这里得到图表的代码，
 
-![image-20220309211656503](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20220309211656503.png)
+![image-20220309211656503](https://img-blog.csdnimg.cn/img_convert/80495e005366b594d44818b116c0183d.png)
 
 ```
 <span>"\e902"</span>
@@ -194,14 +194,14 @@ span { font-family: "icomoon"; }
 
 务必保证 这个字体和上面@font-face 里面的字体保持一致
 
-![image-20220309211927541](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20220309211927541.png)
+![image-20220309211927541](https://img-blog.csdnimg.cn/img_convert/abce62c02aac99e80cb023c3d35ce3cf.png)
 
 ### 2.6 字体图标的追加
 
 如果工作中，原来的字体图标不够用了，我们需要添加新的字体图标到原来的字体文件中。
 把压缩包里面的 `selection.json` 从新上传，然后选中自己想要新的图标，从新下载压缩包，并替换原来的文件即可。
 
-![image-20220309212631656](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20220309212631656.png)
+![image-20220309212631656](https://img-blog.csdnimg.cn/img_convert/a778a4629f45ecab4217f706d0e7b54b.png)
 
 ## 三. CSS 三角
 
@@ -211,7 +211,7 @@ span { font-family: "icomoon"; }
 
 原理就是将宽度和高度设置为 0.然后边框，就会生成下图的形状，**如果只需要一个三角形**，那么就把其他边框变成透明，设置一个边框，如下面 box1 所示
 
-![image-20220309213403006](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20220309213403006.png)
+![image-20220309213403006](https://img-blog.csdnimg.cn/img_convert/4aba213692224d601c6b46aafec4c8af.png)
 
 ```css
 <!DOCTYPE html>
@@ -274,11 +274,11 @@ span { font-family: "icomoon"; }
 
 如上面代码 box2 的三角形
 
-![image-20220309213729575](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20220309213729575.png)
+![image-20220309213729575](https://img-blog.csdnimg.cn/img_convert/89785fc2dcc320504e8902680d46b331.png)
 
 京东样式代码
 
-![image-20220309213830908](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20220309213830908.png)
+![image-20220309213830908](https://img-blog.csdnimg.cn/img_convert/26b29be89a7c08f05848d4e511000764.png)
 
 ### 3.2 直角三角形（不等腰）
 
@@ -310,7 +310,7 @@ span { font-family: "icomoon"; }
 
 ### 3.3 京东价格图
 
-![image-20220309220815682](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20220309220815682.png)
+![image-20220309220815682](https://img-blog.csdnimg.cn/img_convert/66f23095ab16038f45c0d547e8e2fac9.png)
 
 **关键代码**：
 
@@ -440,13 +440,13 @@ vertical-align : baseline | top | middle | bottom
 | middle   | 把此元素放置在父元素的中部。             |
 | bottom   | 把元素的顶端与行中最低的元素的顶端对齐。 |
 
-![image-20211119224239298](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20211119224239298.png)
+![image-20211119224239298](https://img-blog.csdnimg.cn/img_convert/cbb08106a7d7c32a05e46b25c1358cbb.png)
 
 ### 5.2 图片、表单和文字对齐
 
 图片、表单都属于行内块元素，默认的 vertical-align 是基线对齐。
 
-![image-20220309214414406](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20220309214414406.png)
+![image-20220309214414406](https://img-blog.csdnimg.cn/img_convert/a04571e3d501cd722375b56168e57d95.png)
 
 此时可以给图片、表单这些行内块元素的 vertical-align 属性设置为 middle 就可以让文字和图片垂直居中对齐了。
 
@@ -458,13 +458,13 @@ bug：图片底侧会有一个空白缝隙，原因是行内块元素会和文�
 1. 给图片添加 vertical-align:middle | top| bottom 等。 （提倡使用的）
 2. 把图片转换为块级元素 display: block;
 
-![image-20220309214520332](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20220309214520332.png)
+![image-20220309214520332](https://img-blog.csdnimg.cn/img_convert/e5731efb49a6e12c87049902a6249310.png)
 
 ## 六. 溢出的文字省略号显示
 
 ### 6.1 单行文本溢出显示省略号
 
-![image-20220309214616289](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20220309214616289.png)
+![image-20220309214616289](https://img-blog.csdnimg.cn/img_convert/456f5e0676a76327b6772ea3a5f94f2c.png)
 
 单行文本溢出显示省略号--必须满足三个条件
 
@@ -478,7 +478,7 @@ text-overflow: ellipsis;
 
 多行文本溢出显示省略号，有较大兼容性问题， 适合于 webKit 浏览器或移动端（移动端大部分是 webkit 内核）推荐后端人员来做。
 
-![image-20220309214647802](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20220309214647802.png)
+![image-20220309214647802](https://img-blog.csdnimg.cn/img_convert/1e0ae412e0032abd7d62711dfaa1749b.png)
 
 ```html
 overflow: hidden; text-overflow: ellipsis; /* 弹性伸缩盒子模型显示 */ display:
@@ -492,9 +492,9 @@ overflow: hidden; text-overflow: ellipsis; /* 弹性伸缩盒子模型显示 */ 
 
 加边框的时候会有中间两个盒子边框合并的问题：**1px+1px=2px**
 
-![image-20211120091201027](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20211120091201027.png)
+![image-20211120091201027](https://img-blog.csdnimg.cn/img_convert/c1cfc8f56433bf1efa85ee90a6de94aa.png)
 
-![image-20220309214828022](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20220309214828022.png)
+![image-20220309214828022](https://img-blog.csdnimg.cn/img_convert/c3b6818f2ac8a89f599f94f156f3b06f.png)
 
 1. 让每个盒子 margin 往左侧移动 -1px 正好压住相邻盒子边框
 2. 鼠标经过某个盒子的时候，提高当前盒子的层级即可（如果没有有定位，则加相对定位（保留位置），如果有定位，则加 z-index）
@@ -533,7 +533,7 @@ overflow: hidden; text-overflow: ellipsis; /* 弹性伸缩盒子模型显示 */ 
 
 ### 7.2 文字围绕浮动元素
 
-![image-20211120093840597](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20211120093840597.png)
+![image-20211120093840597](https://img-blog.csdnimg.cn/img_convert/9dd95f181126a97c7e3133cc8110888d.png)
 
 ```html
 <!DOCTYPE html>
@@ -579,7 +579,7 @@ overflow: hidden; text-overflow: ellipsis; /* 弹性伸缩盒子模型显示 */ 
 
 ### 7.3 行内块巧妙运用
 
-![image-20220309215210607](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20220309215210607.png)
+![image-20220309215210607](https://img-blog.csdnimg.cn/img_convert/f8839b178aebc1f923d077826e653e97.png)
 
 页码在页面中间显示:
 

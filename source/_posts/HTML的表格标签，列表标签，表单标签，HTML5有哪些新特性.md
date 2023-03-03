@@ -1,6 +1,6 @@
 ---
 title: HTML的表格标签，列表标签，表单标签，HTML5有哪些新特性
-author: Sankey
+author: Breezs
 coverImg: /medias/banner/1.jpg
 top: false
 cover: false
@@ -21,7 +21,7 @@ password:
 
 # HTML 的表格标签，列表标签，表单标签，HTML5 有哪些新特性
 
-博客园主页：[博客园主页-冰山一树 Sankey](https://www.cnblogs.com/bingshanyishu)
+博客园主页：[博客园主页-冰山一树 Sankey](https://www.cnblogs.com/breezs)
 CSDN 主页：[CSDN 主页-冰山一树 Sankey](https://blog.csdn.net/m0_59464010)
 
 > 前端学习：学习地址：[黑马程序员 pink 老师前端入门教程，零基础必看的 h5(html5)+css3+移动](https://www.bilibili.com/video/BV14J4114768?from=search&seid=8917517766284511711)，下面这些都是一些学习笔记。临渊羡鱼，不如退而结网！！愿我自己学有所成，也愿每个前端爱好者学有所成

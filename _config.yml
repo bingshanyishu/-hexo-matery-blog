@@ -7,13 +7,13 @@ title: 冰山一树Sankey
 subtitle: 'Zsの知识树'
 description: '向下以触冰山，向上以触云层，而中以桑基为流，所见即所得！'
 keywords: '可视化 前端 数据分析 电气'
-author: Sankey
+author: Breezs
 language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://bingshanyishu.github.io/
+url: https://breezs.github.io/
 root: /
 # permalink: :year/:month/:day/:title/
 permalink: posts/:abbrlink.html # p 是自定义的前缀
@@ -129,8 +129,11 @@ sitemap:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
     - type: 'git'
-      repo: git@github.com:bingshanyishu/bingshanyishu.github.io.git
+      repo: git@github.com:breezs/breezs.github.io.git
       branch: main
+    - type: 'git'
+      repo: git@gitee.com:breezs/breezs.git
+      branch: master
     - type: baidu_url_submitter
 
 # baidu submit
@@ -162,4 +165,4 @@ lazyload:
     enable: false # 是否开启图片懒加载
     onlypost: true # 是否只对文章的图片做懒加载
     # loadingImg: https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg # eg ./images/loading.gif
-    loadingImg: https://bingshanyishu.github.io/medias/labels/loading.gif
+    loadingImg: https://breezs.github.io/medias/labels/loading.gif

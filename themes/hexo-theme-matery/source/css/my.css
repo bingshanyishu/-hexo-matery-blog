@@ -102,7 +102,7 @@ body {
     width: 200px;
     height: 100px;
     bottom: -262px;
-    background: url(https://bingshanyishu.github.io/medias/bear.png) no-repeat;
+    background: url(https://breezs.github.io/medias/bear.png) no-repeat;
     /* 元素可以添加多个动画， 用逗号分隔 */
     animation: bear 0.4s steps(8) infinite, move 5s forwards;
 }

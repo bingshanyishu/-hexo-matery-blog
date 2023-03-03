@@ -1,6 +1,6 @@
 ---
 title: 如何在hexo博客中在线阅读pdf
-author: Sankey
+author: Breezs
 coverImg: /medias/banner/1.jpg
 top: true
 cover: false
@@ -21,11 +21,9 @@ password:
 
 ## 前言
 
+## 前言
+
 > **我这里是 matery 主题，其他主题的可参照相应思路进行修改**
-> 关于 matery 的博客搭建可去参考
-> 环境搭建：[[个人知识树博客搭建一环境的安装与配置]]
-> 信息修改：[[博客搭建，修改基本信息，建立个人风格]]
-> 直接右上角点击搜素这两篇文字即可
 
 有一些资料或者笔记是 pdf 版本的，如果想要放在博客中进行阅读，那么就得将其转换为 markdown 格式或者 html 格式。但是这样转换后，其原 pdf 的格式就会混乱了，排版将会变得很困难，不过一山更比一山高，由 mozilla 支持的[在线 pdf 阅读插件](https://mozilla.github.io/pdf.js/)就可让我们在网页中进行 pdf 的阅读。
 ![](https://img-blog.csdnimg.cn/0e53c336c12447cea6fda93ab7f4159c.png#pic_center)
@@ -190,7 +188,7 @@ li {
 **注意：以后 pdf 的介绍就放在 li 标签里面，参考第一个小 li 进行修改**
 
 （5）接着在博客根目录下的配置文件`_config.yml`中取消对 pdfjs 的渲染
-![  ](https://img-blog.csdnimg.cn/544490e80f9c49c79a404220c812e091.png)
+![](https://img-blog.csdnimg.cn/544490e80f9c49c79a404220c812e091.png)
 
 （6）最后在主题配置文件`D:\HexoBlog\themes\hexo-theme-matery\_config.yml`中添加导航，我这里添加在 Archives 中作为二级导航。
 

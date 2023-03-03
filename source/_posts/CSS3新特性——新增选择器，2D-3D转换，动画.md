@@ -1,6 +1,6 @@
 ---
 title: CSS3新特性——新增选择器，2D/3D转换，动画
-author: Sankey
+author: Breezs
 coverImg: /medias/banner/1.jpg
 top: false
 cover: false
@@ -21,7 +21,7 @@ password:
 
 # CSS3 新特性——新增选择器，2D/3D 转换，动画
 
-博客园主页：[博客园主页-冰山一树 Sankey](https://www.cnblogs.com/bingshanyishu)
+博客园主页：[博客园主页-冰山一树 Sankey](https://www.cnblogs.com/breezs)
 CSDN 主页：[CSDN 主页-冰山一树 Sankey](https://blog.csdn.net/m0_59464010)
 
 > 前端学习：学习地址：[黑马程序员 pink 老师前端入门教程，零基础必看的 h5(html5)+css3+移动](https://www.bilibili.com/video/BV14J4114768?from=search&seid=8917517766284511711)，下面这些都是一些学习笔记。临渊羡鱼，不如退而结网！！愿我自己学有所成，也愿每个前端爱好者学有所成
@@ -40,7 +40,7 @@ CSDN 主页：[CSDN 主页-冰山一树 Sankey](https://blog.csdn.net/m0_5946401
 | E[att$="val"] | 匹配具有 att 属性且值以 val 结尾的 E 元素   |
 | E[att*="val"] | 匹配具有 att 属性且值中含有 val 的 E 元素   |
 
-意：类选择器、属性选择器、伪类选择器，权重为 10。
+注意：类选择器、属性选择器、伪类选择器，权重为 10。
 
 ### 1.2 结构伪类选择器
 
@@ -151,7 +151,7 @@ CSDN 主页：[CSDN 主页-冰山一树 Sankey](https://blog.csdn.net/m0_5946401
 
 #### 1.3.1 伪元素字体图标
 
-![image-20211120183918565](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20211120183918565.png)
+![image-20211120183918565](https://img-blog.csdnimg.cn/img_convert/aed341ad1954a570bbe94b9b334ea74e.png)
 
 ```html
 <!DOCTYPE html>
@@ -219,7 +219,7 @@ ilter CSS 属性将模糊或颜色偏移等图形效果应用于元素。
 filter: 函数(); 例如： filter: blur(5px); blur模糊处理 数值越大越模糊
 ```
 
-![image-20220309223752563](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20220309223752563.png)
+![image-20220309223752563](https://img-blog.csdnimg.cn/img_convert/779985030bff8cb167105c5614339056.png)
 
 ### 2.3 CSS3 calc 函数
 
@@ -250,11 +250,11 @@ transition:  花费时间 运动曲线 何时开始;
 3. **运动曲线**： 默认是 ease （可以省略）
 4. **何时开始** ：单位是 秒（必须写单位）可以设置延迟触发时间 默认是 0s （可以省略）
 
-![image-20211120223904724](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20211120223904724.png)
+![image-20211120223904724](https://img-blog.csdnimg.cn/img_convert/b7f62143f14ac0b4a260bd101e78b4e9.png)
 
 案例：
 
-![image-20220309224037717](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20220309224037717.png)
+![image-20220309224037717](https://img-blog.csdnimg.cn/img_convert/6c84c6de1a7387639c8924f2ff244a96.png)
 
 ```html
 <!DOCTYPE html>
@@ -302,13 +302,13 @@ transition:  花费时间 运动曲线 何时开始;
 
 2D 转换是改变标签在二维平面上的位置和形状的一种技术，在 html 页面中，二维坐标系是下图这个样子
 
-![image-20220309224412893](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20220309224412893.png)
+![image-20220309224412893](https://img-blog.csdnimg.cn/img_convert/8c4e577cf0d5cddd86af28acfe3a70da.png)
 
 ### 3.1 移动 tanslate
 
 2D 移动是 2D 转换里面的一种功能，可以改变元素在页面中的位置，类似定位。
 
-![image-20211127215118852](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20211127215118852.png)
+![image-20211127215118852](https://img-blog.csdnimg.cn/img_convert/ea2deda04ca8cd671c6f406a5979816f.png)
 
 **语法**：
 
@@ -329,7 +329,7 @@ transform: translateY(n);
 
 2D 旋转指的是让元素在 2 维平面内顺时针旋转或者逆时针旋转。
 
-![image-20211127215641944](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20211127215641944.png)
+![image-20211127215641944](https://img-blog.csdnimg.cn/img_convert/da747b00846714e204e597671ee593a2.png)
 
 **语法**:
 
@@ -343,7 +343,7 @@ transform:rotate(度数)
 -   角度为正时，顺时针，负时，为逆时针
 -   默认旋转的中心点是元素的中心点
 
-![image-20211127215854358](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20211127215854358.png)
+![image-20211127215854358](https://img-blog.csdnimg.cn/img_convert/ccc607e747a560dfe6b4f9b3e5df913d.png)
 
 ```css
 <!DOCTYPE html>
@@ -405,7 +405,7 @@ transform-origin: x y;
 
 **案例**：鼠标经过，浅红色方块旋转上来。
 
-![image-20211127222118112](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20211127222118112.png)
+![image-20211127222118112](https://img-blog.csdnimg.cn/img_convert/db3fe845f0dcf747ccfa2a0a53e9be97.png)
 
 ```html
 <style>
@@ -462,7 +462,7 @@ transform:scale(x,y);
 -   sacle 缩放最大的优势：可以设置转换中心点缩放，默认以中心点缩放的，而且不影响其他盒子
 
 **案例**：
-![image-20211127223636520](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20211127223636520.png)
+![image-20211127223636520](https://img-blog.csdnimg.cn/img_convert/4d84c058abb679f5050099b1f1eeb17f.png)
 
 ```html
 <style>
@@ -529,7 +529,7 @@ transform:scale(x,y);
 动画（animation）是 CSS3 中具有颠覆性的特征之一，可通过设置多个节点来精确控制一个或一组动画，常用来实现复杂的动画效果。
 相比较过渡，动画可以实现更多变化，更多控制，连续自动播放等效果。
 
-![image-20220309225120043](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20220309225120043.png)
+![image-20220309225120043](https://img-blog.csdnimg.cn/img_convert/b8f25264135e78777cb7726a24c7e34b.png)
 
 ### 4.1 动画的基本使用
 
@@ -557,7 +557,7 @@ transform:scale(x,y);
 -   动画是使元素从一种样式逐渐变化为另一种样式的效果。您可以改变任意多的样式任意多的次数。
 -   请用百分比来规定变化发生的时间，或用关键词 "from" 和 "to"，等同于 0% 和 100%。
 
-![image-20211128090059797](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20211128090059797.png)
+![image-20211128090059797](https://img-blog.csdnimg.cn/img_convert/87e142f09cb1728c6466f68c011ac1ab.png)
 
 #### 4.1.2 元素使用动画
 
@@ -651,7 +651,7 @@ animation: myfirst 5s linear 2s infinite alternate;
 
 **案例**:
 
-![image-20211128094404354](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20211128094404354.png)
+![image-20211128094404354](https://img-blog.csdnimg.cn/img_convert/b4192285b705a55cd8a7226121356153.png)
 
 ```html
 <style>
@@ -755,7 +755,7 @@ animation-timing-function：规定动画的速度曲线，默认是“ease”
 | ease-in-out | 动画以低速开始和结束。                     |
 | steps()     | 指定了时间函数中的间隔数量(步长)           |
 
-![image-20211128094503846](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20211128094503846.png)
+![image-20211128094503846](https://img-blog.csdnimg.cn/img_convert/36ef1e0cddbe9ec39f1ce6bf90fb3383.png)
 
 ```HTML
 <style>
@@ -800,7 +800,7 @@ animation-timing-function：规定动画的速度曲线，默认是“ease”
 
 ## 五. 3D 转换
 
-![image-20211128100306800](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20211128100306800.png)
+![image-20211128100306800](https://img-blog.csdnimg.cn/img_convert/6d663abf57f7cfa603797118462d105e.png)
 
 ### 5.1 三维坐标系
 
@@ -810,7 +810,7 @@ animation-timing-function：规定动画的速度曲线，默认是“ease”
 -   y 轴：垂直向下 注意： y 下面是正值，上面是负值
 -   z 轴：垂直屏幕 注意： 往外面是正值，往里面是负值
 
-![image-20220310084024488](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20220310084024488.png)
+![image-20220310084024488](https://img-blog.csdnimg.cn/img_convert/0f5bc48391b74eca7be408ad3a479bf0.png)
 
 ### 5.2 透视 perspective
 
@@ -887,17 +887,17 @@ transform:rotateZ(45deg) ：沿着Z轴正方向旋转 45deg
 transform:rotate3d(x,y,z,deg)： 沿着自定义轴旋转 deg为角度（了解即可）
 ```
 
-![image-20211128115813718](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20211128115813718.png)
+![image-20211128115813718](https://img-blog.csdnimg.cn/img_convert/d993e3823ada943b61860eab56a793d7.png)
 
 #### 5.4.1 正方向判断
 
 1. **X 轴**
 
-![image-20211128115938395](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20211128115938395.png)
+![image-20211128115938395](https://img-blog.csdnimg.cn/img_convert/a07125f57987889352ecd551b866f763.png)
 
 2. **Y 轴**
 
-![image-20211128120033046](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20211128120033046.png)
+![image-20211128120033046](https://img-blog.csdnimg.cn/img_convert/136823adb619b7d2483aadafa8fda3a8.png)
 
 #### 5.4.2 自定义轴旋转
 
@@ -916,9 +916,9 @@ xyz 是表示旋转轴的矢量，是标示你是否希望沿着该轴旋转，�
 -   代码写给父级，但是影响的是子盒子。
 -   这个属性很重要，后面必用。
 
-![image-20220310093734675](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20220310093734675.png)
+![image-20220310093734675](https://img-blog.csdnimg.cn/img_convert/900fe007e9728b132d9fe57df63748fe.png)
 
-![image-20211128132425138](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20211128132425138.png)
+![image-20211128132425138](https://img-blog.csdnimg.cn/img_convert/1ebb3078d5d0b68f4e778b3a65f09196.png)
 
 ```html
  <style>
@@ -979,11 +979,11 @@ xyz 是表示旋转轴的矢量，是标示你是否希望沿着该轴旋转，�
 
 #### 5.6.1 3D 导航栏
 
-![image-20211128132628425](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20211128132628425.png)
+![image-20211128132628425](https://img-blog.csdnimg.cn/img_convert/8bc380c30af7b4ef6c48fe2507a9a300.png)
 
-![image-20211128132642338](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20211128132642338.png)
+![image-20211128132642338](https://img-blog.csdnimg.cn/img_convert/44bf265d45df40a910da55a4c85957c5.png)
 
-![image-20211128132655132](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20211128132655132.png)
+![image-20211128132655132](https://img-blog.csdnimg.cn/img_convert/46658e6c80fd6fde1bb1ccb56c3bb736.png)
 
 ```html
 <style>
@@ -1047,11 +1047,11 @@ xyz 是表示旋转轴的矢量，是标示你是否希望沿着该轴旋转，�
 
 #### 5.6.2 旋转木马
 
-![image-20211128132810913](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20211128132810913.png)
+![image-20211128132810913](https://img-blog.csdnimg.cn/img_convert/f9f1d7968822a7f29ffb8ea6d81fbb80.png)
 
-![image-20211128132829850](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20211128132829850.png)
+![image-20211128132829850](https://img-blog.csdnimg.cn/img_convert/957d1c4af6bf9d67e38e1693fb23c35d.png)
 
-![image-20211128132843301](https://gitee.com/Omnivore_zhang/cloud-image/raw/master/web/image-20211128132843301.png)
+![image-20211128132843301](https://img-blog.csdnimg.cn/img_convert/3c5b6494e0c89f238d0c451238583e4d.png)
 
 ```HTML
 <style>

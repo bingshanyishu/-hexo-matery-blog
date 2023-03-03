@@ -11,7 +11,7 @@ menu:
               url: https://blog.csdn.net/m0_59464010
               icon: fas fa-book-open
             - name: 博客园
-              url: https://www.cnblogs.com/bingshanyishu
+              url: https://www.cnblogs.com/breezs
               icon: fa fa-rss-square
 
     Archives:
@@ -47,7 +47,7 @@ menu:
               url: /List/movies
               icon: fas fa-film
             - name: 书籍
-              url: https://github.com/bingshanyishu/free-programming-books-zh_CN
+              url: https://github.com/breezs/free-programming-books-zh_CN
               icon: fas fa-book
 
     Contact:
@@ -101,9 +101,9 @@ menu:
 # 站点运行开始时间.
 time:
     enable: true
-    year: 2022 # 年份
-    month: 1 # 月份
-    date: 26 # 日期
+    year: 2023 # 年份
+    month: 3 # 月份
+    date: 1 # 日期
     hour: 00 # 小时
     minute: 00 # 分钟
     second: 00 # 秒
@@ -204,13 +204,13 @@ indexbtn:
     enable: true
     name: Github
     icon: fab fa-github-alt
-    url: https://github.com/bingshanyishu/
+    url: https://github.com/breezs/
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-    github: https://github.com/bingshanyishu/
+    github: https://github.com/breezs/
     email: omnivorezs.163.com
     CSDN: https://blog.csdn.net/m0_59464010?spm=1000.2115.3001.5343
     facebook: # https://www.facebook.com/xxx
@@ -294,7 +294,7 @@ profile:
 myProjects:
     enable: false
     data:
-        hexo-blog-Sankey:
+        hexo-blog-matery:
             icon: fas fa-file-alt
             iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
             url: https://github.com/LuckyZmj/LuckyBlog
@@ -478,7 +478,7 @@ changyan:
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
     enable: true
-    url: https://github.com/bingshanyishu/
+    url: https://github.com/breezs/
     title: Fork Me
 
 # The password verification feature of read post. To use this feature,
@@ -736,7 +736,7 @@ jsDelivr:
 # 网站背景图
 background:
     enable: true
-    url: 'https://bingshanyishu.github.io/medias/background.jpg'
+    url: 'https://breezs.github.io/medias/background.jpg'
 
 # 说说 https://artitalk.js.org/
 artitalk:

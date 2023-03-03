@@ -1,6 +1,6 @@
 ---
 title: jQuery+CSS3实现的文字背景粒子特效
-author: Sankey
+author: Breezs
 coverImg: /medias/banner/7.jpg
 top: false
 cover: false
@@ -8,10 +8,10 @@ toc: true
 mathjax: false
 summary: '一款jQuery+CSS3的文字背景粒子动画特效，一共6种粒子效果，每种文字背景的粒子效果都不同，有漂浮的有坠落的等等。 '
 tags:
-  - CSS3
-  - 粒子特效
+    - CSS3
+    - 粒子特效
 categories:
-  - 技能之树
+    - 技能之树
 abbrlink: 4b3510a4
 reprintPolicy: cc_by
 date: 2022-01-31 00:00:00
@@ -19,20 +19,17 @@ img:
 password:
 ---
 
-
-
 ### 前言
 
-一款jQuery+CSS3的文字背景粒子动画特效，一共6种粒子效果，每种文字背景的粒子效果都不同，有漂浮的有坠落的等等。 
+一款 jQuery+CSS3 的文字背景粒子动画特效，一共 6 种粒子效果，每种文字背景的粒子效果都不同，有漂浮的有坠落的等等。
 
-本文转载于LuckySEc用于自用，[文字背景粒子特效 | LuckySec (luckyzmj.cn)](http://www.luckyzmj.cn/posts/4b3510a4.html)。感谢大佬的分享。
+本文转载于 LuckySEc 用于自用，[文字背景粒子特效 | LuckySec (luckyzmj.cn)](http://www.luckyzmj.cn/posts/4b3510a4.html)。感谢大佬的分享。
 
 ### 0x001 特效演示
 
 ---
 
 <div style="width: 100%;text-align: center; height: 120px; position: relative; bottom: 0px;" ><span class="particletext fire" style="font-size:48px;position: relative;">This is fires</span></div>
-
 
 <div style="width: 100%;text-align: center; height: 120px; position: relative; bottom: 0px;" > <span class="particletext lines" style="font-size:48px; position: relative;">This is lines</span>
 </div>
@@ -115,7 +112,6 @@ password:
   }
 }
 </style>
-
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script>
@@ -242,9 +238,6 @@ function lines() {
 }
 </style>
 
-
-
-
 <script>
 function hearts() { 
    $.each($(".particletext.hearts"), function(){ 
@@ -299,10 +292,6 @@ function hearts() {
   }
 }
 </style>
-
-
-
-
 
 <script>
 function bubbles() { 
@@ -375,9 +364,6 @@ function bubbles() {
   }
 }
 </style>
-
-
-
 
 <script>
 function confetti() { 
@@ -475,15 +461,15 @@ function sunbeams() {
 
 ```javascript
 <script>
-function fire() { 
-   $.each($(".particletext.fire"), function(){ 
-      var firecount = ($(this).width()/50)*20; 
-      for(var i = 0; i <= firecount; i++) { 
-         var size = $.rnd(8,12); 
-         $(this).append('<span class="particle" style="top:' + $.rnd(40,70) + '%; left:' + $.rnd(-10,100) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + ($.rnd(0,20)/10) + 's;"></span>'); 
-      } 
-   }); 
-} 
+function fire() {
+   $.each($(".particletext.fire"), function(){
+      var firecount = ($(this).width()/50)*20;
+      for(var i = 0; i <= firecount; i++) {
+         var size = $.rnd(8,12);
+         $(this).append('<span class="particle" style="top:' + $.rnd(40,70) + '%; left:' + $.rnd(-10,100) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + ($.rnd(0,20)/10) + 's;"></span>');
+      }
+   });
+}
   jQuery.rnd = function(m,n) {
       m = parseInt(m);
       n = parseInt(n);
@@ -563,8 +549,12 @@ function fire() {
 #### 3. HTML 代码
 
 ```html
-<div style="width: 100%;text-align: center; height: 120px; position: relative; bottom: 0px;" >
-<span class="particletext fire" style="font-size:48px;position: relative;">This is fires</span>
+<div
+    style="width: 100%;text-align: center; height: 120px; position: relative; bottom: 0px;"
+>
+    <span class="particletext fire" style="font-size:48px;position: relative;"
+        >This is fires</span
+    >
 </div>
 ```
 
@@ -574,14 +564,14 @@ function fire() {
 
 ```javascript
 <script>
-function lines() { 
-   $.each($(".particletext.lines"), function(){ 
-      var linecount = ($(this).width()/50)*10; 
-      for(var i = 0; i <= linecount; i++) { 
-         $(this).append('<span class="particle" style="top:' + $.rnd(-30,30) + '%; left:' + $.rnd(-10,110) + '%;width:' + $.rnd(1,3) + 'px; height:' + $.rnd(20,80) + '%;animation-delay: -' + ($.rnd(0,30)/10) + 's;"></span>'); 
-      } 
-   }); 
-} 
+function lines() {
+   $.each($(".particletext.lines"), function(){
+      var linecount = ($(this).width()/50)*10;
+      for(var i = 0; i <= linecount; i++) {
+         $(this).append('<span class="particle" style="top:' + $.rnd(-30,30) + '%; left:' + $.rnd(-10,110) + '%;width:' + $.rnd(1,3) + 'px; height:' + $.rnd(20,80) + '%;animation-delay: -' + ($.rnd(0,30)/10) + 's;"></span>');
+      }
+   });
+}
   jQuery.rnd = function(m,n) {
       m = parseInt(m);
       n = parseInt(n);
@@ -635,8 +625,12 @@ function lines() {
 #### 3. HTML 代码
 
 ```html
-<div style="width: 100%;text-align: center; height: 120px; position: relative; bottom: 0px;" > 
-<span class="particletext lines" style="font-size:48px; position: relative;">This is lines</span>
+<div
+    style="width: 100%;text-align: center; height: 120px; position: relative; bottom: 0px;"
+>
+    <span class="particletext lines" style="font-size:48px; position: relative;"
+        >This is lines</span
+    >
 </div>
 ```
 
@@ -646,15 +640,15 @@ function lines() {
 
 ```javascript
 <script>
-function hearts() { 
-   $.each($(".particletext.hearts"), function(){ 
-      var heartcount = ($(this).width()/50)*5; 
-      for(var i = 0; i <= heartcount; i++) { 
-         var size = ($.rnd(60,120)/10); 
-         $(this).append('<span class="particle" style="top:' + $.rnd(20,80) + '%; left:' + $.rnd(0,95) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + ($.rnd(0,30)/10) + 's;"></span>'); 
-      } 
-   }); 
-} 
+function hearts() {
+   $.each($(".particletext.hearts"), function(){
+      var heartcount = ($(this).width()/50)*5;
+      for(var i = 0; i <= heartcount; i++) {
+         var size = ($.rnd(60,120)/10);
+         $(this).append('<span class="particle" style="top:' + $.rnd(20,80) + '%; left:' + $.rnd(0,95) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + ($.rnd(0,30)/10) + 's;"></span>');
+      }
+   });
+}
   jQuery.rnd = function(m,n) {
       m = parseInt(m);
       n = parseInt(n);
@@ -733,8 +727,14 @@ function hearts() {
 #### 3. HTML 代码
 
 ```html
-<div style="width: 100%;text-align: center; height: 120px; position: relative; bottom: 0px;" >
-<span class="particletext hearts" style="font-size:48px; position: relative;">This is hearts</span>
+<div
+    style="width: 100%;text-align: center; height: 120px; position: relative; bottom: 0px;"
+>
+    <span
+        class="particletext hearts"
+        style="font-size:48px; position: relative;"
+        >This is hearts</span
+    >
 </div>
 ```
 
@@ -744,15 +744,15 @@ function hearts() {
 
 ```javascript
 <script>
-function bubbles() { 
-   $.each($(".particletext.bubbles"), function(){ 
-      var bubblecount = ($(this).width()/50)*10; 
-      for(var i = 0; i <= bubblecount; i++) { 
-         var size = ($.rnd(40,80)/10); 
-         $(this).append('<span class="particle" style="top:' + $.rnd(20,80) + '%; left:' + $.rnd(0,95) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + ($.rnd(0,30)/10) + 's;"></span>'); 
-      } 
-   }); 
-} 
+function bubbles() {
+   $.each($(".particletext.bubbles"), function(){
+      var bubblecount = ($(this).width()/50)*10;
+      for(var i = 0; i <= bubblecount; i++) {
+         var size = ($.rnd(40,80)/10);
+         $(this).append('<span class="particle" style="top:' + $.rnd(20,80) + '%; left:' + $.rnd(0,95) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + ($.rnd(0,30)/10) + 's;"></span>');
+      }
+   });
+}
   jQuery.rnd = function(m,n) {
       m = parseInt(m);
       n = parseInt(n);
@@ -812,8 +812,14 @@ function bubbles() {
 #### 3. HTML 代码
 
 ```html
-<div style="width: 100%;text-align: center; height: 120px; position: relative; bottom: 0px;" > 
-<span class="particletext bubbles" style="font-size:48px; position: relative;">This is bubbles</span>
+<div
+    style="width: 100%;text-align: center; height: 120px; position: relative; bottom: 0px;"
+>
+    <span
+        class="particletext bubbles"
+        style="font-size:48px; position: relative;"
+        >This is bubbles</span
+    >
 </div>
 ```
 
@@ -823,14 +829,14 @@ function bubbles() {
 
 ```javascript
 <script>
-function confetti() { 
-   $.each($(".particletext.confetti"), function(){ 
-      var confetticount = ($(this).width()/50)*10; 
-      for(var i = 0; i <= confetticount; i++) { 
-         $(this).append('<span class="particle c' + $.rnd(1,2) + '" style="top:' + $.rnd(10,50) + '%; left:' + $.rnd(0,100) + '%;width:' + $.rnd(6,8) + 'px; height:' + $.rnd(3,4) + 'px;animation-delay: ' + ($.rnd(0,30)/10) + 's;"></span>'); 
-      } 
-   }); 
-} 
+function confetti() {
+   $.each($(".particletext.confetti"), function(){
+      var confetticount = ($(this).width()/50)*10;
+      for(var i = 0; i <= confetticount; i++) {
+         $(this).append('<span class="particle c' + $.rnd(1,2) + '" style="top:' + $.rnd(10,50) + '%; left:' + $.rnd(0,100) + '%;width:' + $.rnd(6,8) + 'px; height:' + $.rnd(3,4) + 'px;animation-delay: ' + ($.rnd(0,30)/10) + 's;"></span>');
+      }
+   });
+}
   jQuery.rnd = function(m,n) {
       m = parseInt(m);
       n = parseInt(n);
@@ -906,8 +912,14 @@ function confetti() {
 #### 3. HTML 代码
 
 ```html
-<div style="width: 100%;text-align: center; height: 120px; position: relative; bottom: 0px;" > 
-<span class="particletext confetti" style="font-size:48px; position: relative;">This is confetti</span>
+<div
+    style="width: 100%;text-align: center; height: 120px; position: relative; bottom: 0px;"
+>
+    <span
+        class="particletext confetti"
+        style="font-size:48px; position: relative;"
+        >This is confetti</span
+    >
 </div>
 ```
 
@@ -917,14 +929,14 @@ function confetti() {
 
 ```javascript
 <script>
-function sunbeams() { 
-   $.each($(".particletext.sunbeams"), function(){ 
-      var linecount = ($(this).width()/50)*10; 
-      for(var i = 0; i <= linecount; i++) { 
-         $(this).append('<span class="particle" style="top:' + $.rnd(-50,00) + '%; left:' + $.rnd(0,100) + '%;width:' + $.rnd(1,3) + 'px; height:' + $.rnd(80,160) + '%;animation-delay: -' + ($.rnd(0,30)/10) + 's;"></span>'); 
-      } 
-   }); 
-} 
+function sunbeams() {
+   $.each($(".particletext.sunbeams"), function(){
+      var linecount = ($(this).width()/50)*10;
+      for(var i = 0; i <= linecount; i++) {
+         $(this).append('<span class="particle" style="top:' + $.rnd(-50,00) + '%; left:' + $.rnd(0,100) + '%;width:' + $.rnd(1,3) + 'px; height:' + $.rnd(80,160) + '%;animation-delay: -' + ($.rnd(0,30)/10) + 's;"></span>');
+      }
+   });
+}
   jQuery.rnd = function(m,n) {
       m = parseInt(m);
       n = parseInt(n);
@@ -990,7 +1002,13 @@ function sunbeams() {
 #### 3. HTML 代码
 
 ```html
-<div style="width: 100%;text-align: center; height: 120px; position: relative; bottom: 0px;" >
-<span class="particletext sunbeams" style="font-size:48px; position: relative;">This is sunbeams</span>
+<div
+    style="width: 100%;text-align: center; height: 120px; position: relative; bottom: 0px;"
+>
+    <span
+        class="particletext sunbeams"
+        style="font-size:48px; position: relative;"
+        >This is sunbeams</span
+    >
 </div>
 ```
